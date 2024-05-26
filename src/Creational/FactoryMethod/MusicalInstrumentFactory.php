@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Creational\FactoryMethod;
+namespace App\Creational\FactoryMethod;
 
-use DesignPatterns\Creational\FactoryMethod\Products\AcousticGuitar;
-use DesignPatterns\Creational\FactoryMethod\Products\ElectricGuitar;
-use DesignPatterns\Creational\FactoryMethod\Products\MusicalInstrument;
+use App\Creational\FactoryMethod\Products\AcousticGuitar;
+use App\Creational\FactoryMethod\Products\ElectricGuitar;
+use App\Creational\FactoryMethod\Products\MusicalInstrument;
 
 class MusicalInstrumentFactory
 {

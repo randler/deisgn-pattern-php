@@ -1,9 +1,9 @@
 <?php
 
-namespace DesignPatterns\Creational\FactoryMethod\Factory;
+namespace App\Creational\FactoryMethod\Factory;
 
-use DesignPatterns\Creational\FactoryMethod\Products\AcousticGuitar;
-use DesignPatterns\Creational\FactoryMethod\Products\MusicalInstrument;
+use App\Creational\FactoryMethod\Products\AcousticGuitar;
+use App\Creational\FactoryMethod\Products\MusicalInstrument;
 
 class AcousticGuitarFactory implements MusicalInstrumentFactory
 {

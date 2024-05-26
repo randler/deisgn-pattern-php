@@ -1,10 +1,10 @@
 <?php
 
-namespace DesignPatterns\Creational\FactoryMethod\Tests;
+namespace App\Creational\FactoryMethod\Tests;
 
-use DesignPatterns\Creational\FactoryMethod\MusicalInstrumentFactory;
-use DesignPatterns\Creational\FactoryMethod\Products\AcousticGuitar;
-use DesignPatterns\Creational\FactoryMethod\Products\ElectricGuitar;
+use App\Creational\FactoryMethod\MusicalInstrumentFactory;
+use App\Creational\FactoryMethod\Products\AcousticGuitar;
+use App\Creational\FactoryMethod\Products\ElectricGuitar;
 use PHPUnit\Framework\TestCase;
 
 final class MusicalInstrumentFactoryTest extends TestCase

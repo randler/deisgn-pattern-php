@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Creational\FactoryMethod\Products;
+namespace App\Creational\FactoryMethod\Products;
 
 
 abstract class MusicalInstrument implements MusicalInstrumentProduct

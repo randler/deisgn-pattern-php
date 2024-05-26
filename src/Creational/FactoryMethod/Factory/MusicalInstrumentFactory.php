@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Creational\FactoryMethod\Factory;
+namespace App\Creational\FactoryMethod\Factory;
 
-use DesignPatterns\Creational\FactoryMethod\Products\MusicalInstrument;
+use App\Creational\FactoryMethod\Products\MusicalInstrument;
 
 interface MusicalInstrumentFactory
 {
