@@ -8,5 +8,8 @@
     <testsuite name="Tests">
       <directory suffix=".php">src/Creational/AbstractFactory/tests</directory>
     </testsuite>
+    <testsuite name="Tests">
+      <directory suffix=".php">src/Creational/FactoryMethod/tests</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
