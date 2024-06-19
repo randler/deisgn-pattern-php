@@ -13,10 +13,16 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "^10"
+        "pestphp/pest": "^2.34"
     },
 
     "scripts": {
-        "test": "./vendor/bin/phpunit"
+        "test": "./vendor/bin/phpunit",
+        "pest": "./vendor/bin/pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }

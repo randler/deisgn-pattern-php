@@ -6,9 +6,7 @@
   colors="true">
   <testsuites>
     <testsuite name="Tests">
-      <directory suffix=".php">src/Creational/AbstractFactory/tests</directory>
-      <directory suffix=".php">src/Creational/FactoryMethod/tests</directory>
-      <directory suffix=".php">src/Creational/Prototype/tests</directory>
+      <directory suffix=".php">tests/Unit/Creational</directory>
     </testsuite>
     
   </testsuites>
