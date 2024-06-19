@@ -4,7 +4,6 @@ use App\Creational\Prototype\Smartphones\Iphone;
 use App\Creational\Prototype\Smartphones\Samsung;
 
 describe('SamsungPrototypeTest', function () {
-
     it('testCanCreateSamsungPhoneClone', function () {
         $samsungXPT1 = (new Samsung())
             ->setName('Samsung XPT1')
