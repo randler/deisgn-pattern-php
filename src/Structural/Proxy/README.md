@@ -7,3 +7,5 @@ Com o Padrão de Projeto Proxy você consegue controlar o acesso a um objeto de 
 Certamente em algum momento você esbarrou em algum Proxy de internet. Como poderíamos representar essa implementação, por exemplo, de controle de conexão com a internet?
 
 A estrutura de uso deste padrão neste exemplo de controle de conexão, o contrato do Subject fica sendo a ação de conexão a um determinado site. Ou seja, se o site estiver na lista de negados, disparará uma exceção. Caso contrário, aparecerá uma mensagem com o sucesso da conexão.
+
+[ler mais](https://refactoring.guru/pt-br/design-patterns/proxy)
