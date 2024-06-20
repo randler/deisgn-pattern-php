@@ -11,3 +11,8 @@ para rodar é necessário ter instalado o composer
 Para rodar todos os testes rode o comando
 
 ``` composer pest ```
+
+
+Para rodar um teste em especifico basta usar o comando
+
+``` composer pest tests/Unit/Structural/Facade/FacadeTest.php ```
