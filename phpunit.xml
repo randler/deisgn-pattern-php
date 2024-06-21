@@ -8,6 +8,7 @@
     <testsuite name="Tests">
       <directory suffix=".php">tests/Unit/Creational</directory>
       <directory suffix=".php">tests/Unit/Structural</directory>
+      <directory suffix=".php">tests/Unit/Behavioral</directory>
     </testsuite>
     
   </testsuites>
